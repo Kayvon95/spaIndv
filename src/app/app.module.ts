@@ -21,6 +21,7 @@ import {GamesService} from './games/games.service';
 import { GameCardComponent } from './games/game-list/game-card/game-card.component';
 import { CharacterListComponent } from './characters/character-list/character-list.component';
 import {CharactersService} from './characters/characters.service';
+import { CharacterCardComponent } from './characters/character-list/character-card/character-card.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import {CharactersService} from './characters/characters.service';
     DeveloperEditComponent,
     GameListComponent,
     GameCardComponent,
-    CharacterListComponent
+    CharacterListComponent,
+    CharacterCardComponent
   ],
   imports: [
     BrowserModule,
